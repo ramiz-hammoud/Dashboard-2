@@ -1,0 +1,41 @@
+{
+  "name": "fnbalance-control-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "seed": "node ./prisma/seed.js"
+  },
+  "dependencies": {
+    "next": "13.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@supabase/supabase-js": "2.28.0",
+    "@supabase/auth-helpers-nextjs": "0.6.7",
+    "tailwindcss": "3.4.7",
+    "postcss": "8.4.21",
+    "autoprefixer": "10.4.13",
+    "lucide-react": "0.245.0",
+    "zod": "3.23.2",
+    "react-hook-form": "7.45.1",
+    "date-fns": "2.31.0",
+    "xlsx": "0.18.7",
+    "papaparse": "5.4.1",
+    "jspdf": "2.5.1",
+    "jspdf-autotable": "3.5.28",
+    "recharts": "2.6.2",
+    "jszip": "3.10.1",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.5.1",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.28"
+  }
+}
